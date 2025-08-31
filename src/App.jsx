@@ -10,7 +10,7 @@ import Documents from "./pages/Documents";
 import Images from "./pages/Images";
 import Media from "./pages/Media";
 import Others from "./pages/Others";
-import Login from "./pages/auth/Login";
+import Login from "./pages/auth/login";
 import Signup from "./pages/auth/Signup";
 
 // Mock authentication state
