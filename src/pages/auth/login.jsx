@@ -1,4 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
+import illustration from "./Illustration.png";
 
 export default function Login() {
   const navigate = useNavigate();
@@ -16,8 +17,8 @@ export default function Login() {
       <div className="w-[35%] bg-primary text-white flex flex-col justify-between p-10">
         {/* Logo + Brand */}
         <div className="flex items-center space-x-2">
-          <img src="/logo.svg" alt="logo" className="h-8 w-8" />
-          <h1 className="text-xl font-semibold">StoreIt</h1>
+          <img src={illustration} alt="logo" className="h-8 w-8" />
+          <h1 className="text-xl font-semibold">OteshDrive</h1>
         </div>
 
         {/* Text content */}
@@ -33,11 +34,7 @@ export default function Login() {
 
         {/* Illustration */}
         <div className="flex justify-center mt-10">
-          <img
-            src="/auth-illustration.svg"
-            alt="illustration"
-            className="w-3/4"
-          />
+          <img src={illustration} alt="illustration" className="w-3/4" />
         </div>
       </div>
 
