@@ -11,7 +11,7 @@ import Images from "./pages/Images";
 import Media from "./pages/Media";
 import Others from "./pages/Others";
 import Login from "./pages/auth/login";
-import Signup from "./pages/auth/Signup";
+import Signup from "./pages/auth/signup";
 
 // Mock authentication state
 const isLoggedIn = true; // change this dynamically based on actual auth
